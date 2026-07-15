@@ -3,7 +3,7 @@
 Um site minimalista desenvolvido para ajudar usuários a descobrirem jogos públicos e gratuitos de forma totalmente aleatória e descompromissada.
 
 ## 🔗 Acesse o Site
-👉 [Clique aqui para acessar o Free Games](https://github.com/GAGABRIELTRUE/Free-Games.git)
+👉 [Clique aqui para acessar o Free Games](https://gagabrieltrue.github.io/Free-Games/)
 
 ## 🎯 Sobre o Projeto
 Este projeto nasceu como um teste prático de desenvolvimento web focado em dispositivos móveis. O objetivo principal foi criar uma aplicação leve, rápida e direta que resolve o problema de "não saber o que jogar", sorteando links de jogos gratuitos com apenas um clique.
