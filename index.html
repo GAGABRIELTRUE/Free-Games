@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags essenciais para codificação e responsividade mobile -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Free Games</title>
+</head>
+<!-- h-screen substituído por min-h-screen para evitar cortes de conteúdo em telas pequenas -->
+<body class="bg-[#C10A75] flex flex-col items-center justify-center p-4 m-0 min-h-screen w-full">
+  
+  <!-- Card principal: largura e padding adaptáveis ao tamanho da tela -->
+  <div class="w-full max-w-md md:max-w-xl rounded-2xl flex flex-col items-center justify-between gap-6 bg-[#F38057] p-6 shadow-2xl">
+    
+    <!-- Título principal com tamanho de fonte responsivo -->
+    <h1 class="text-pink-700 font-extrabold text-2xl sm:text-3xl md:text-4xl text-center tracking-wide">
+      The chosen game this time:
+    </h1>
+    
+    <!-- Container do conteúdo do jogo -->
+    <div class="w-full flex flex-col items-center justify-center gap-4 text-center">
+      <h2 class="font-bold text-lg sm:text-xl md:text-2xl text-white" id="titulo-game" translate="no"></h2>
+      
+      <!-- Imagem responsiva com proporção controlada e limite de altura -->
+      <img class="w-full max-h-48 sm:max-h-64 object-cover rounded-xl shadow-md" src="" alt="" id="img-game">
+      
+      <div class="w-full flex flex-col items-center justify-center gap-4 text-justify">
+        <!-- Texto explicativo com quebra de linha correta e leitura confortável -->
+        <p class="text-sm sm:text-base text-white/90 break-words w-full px-2" id="descricao"></p>
+        
+        <p class="text-sm sm:text-base text-white/90 break-words w-full px-2" id="genero"></p>
+  
+        <p class="text-sm sm:text-base text-white/90 break-words w-full px-2" id="plataforma"></p>
+    
+        <p class="text-sm sm:text-base text-white/90 break-words w-full px-2" id="publicador"></p>
+    
+        <p class="text-sm sm:text-base text-white/90 break-words w-full px-2" id="desenvolvedor"></p>
+    
+        <p class="text-sm sm:text-base text-white/90 break-words w-full px-2" id="lancamento"></p>
+        
+        <!-- Link formatado como botão secundário para facilitar o toque no celular -->
+        <p class="text-sm sm:text-base text-white font-medium ">Link para o jogo:<a class="text-sm sm:text-base text-yellow-300 font-medium hover:text-yellow-400 underline transition duration-200 break-all px-2" id="link-game" target="_blank" rel="noopener noreferrer"></a>
+        </p>
+        
+        
+      </div>
+    </div>
+    
+    
+    
+    <!-- Botão principal otimizado para clique e toque (fácil de alcançar no mobile) -->
+    <button class="w-full sm:w-auto bg-[#DB3752] hover:bg-[#F31738] text-white font-bold py-3 px-6 rounded-xl shadow-lg transition-all duration-300 transform hover:scale-[1.02] active:scale-95 cursor-pointer text-sm sm:text-base" id="recarregar">
+      More random games!
+    </button>
+    
+  </div>
+  
+  <script src="scripts/game.js"></script>
+</body>
+</html>
