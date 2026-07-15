@@ -4,7 +4,7 @@ Um site minimalista desenvolvido para testar lógica de programação e ajudar u
 
 ## 🚀 Tecnologias Utilizadas
 * HTML5
-* CSS3
+* Tailwindcss/CDN
 * JavaScript (ES6+)
 
 ## 💻 Como Executar o Projeto
